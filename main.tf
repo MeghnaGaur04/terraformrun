@@ -65,8 +65,8 @@ provider "aws" {
 # }
 
 
-module "module" {
+/* module "module" {
   source  = "app.terraform.io/gbkr/module/aws"
   version = "1.0.1"
   vpc_cidr = "192.168.1.0/24"
-}
+} */
